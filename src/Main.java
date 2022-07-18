@@ -1,6 +1,6 @@
 import javax.swing.JFrame;
 import javax.swing.ImageIcon;
-
+import java.awt.Color;
 
 
 public class Main {
@@ -23,6 +23,19 @@ public class Main {
         // How to change the logo of the app
         ImageIcon image = new ImageIcon("pexels-danne-457563.jpg");
         frame.setIconImage(image.getImage());                           // This will change the icon of the frame
+
+
+        // How to change the background color of the frame
+
+        frame.getContentPane().setBackground(Color.lightGray);
+        // frame.getContentPane().setBackground(new Color(0,0,0));        // This is black
+        // frame.getContentPane().setBackground(new Color(255,0,0));      // The first value is amount of red
+        // frame.getContentPane().setBackground(new Color(0,255,0));      // The second value is amount of green
+        // frame.getContentPane().setBackground(new Color(0,0,255));      // The second value is amount of blue
+
+
+
+
     }
 
 }
