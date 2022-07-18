@@ -10,6 +10,7 @@ public class Main {
 
         // JFrame is a GUI window to add components to
 
+        /*
         JFrame frame = new JFrame();                                     // it creates a frame, but not visible yet
         frame.setVisible(true);                                          // this will make frame visible. But it's so small to see
         frame.setSize(500,500);                            // Not the size is visible
@@ -33,6 +34,10 @@ public class Main {
         // frame.getContentPane().setBackground(new Color(0,255,0));      // The second value is amount of green
         // frame.getContentPane().setBackground(new Color(0,0,255));      // The second value is amount of blue
 
+
+         */
+
+         new MyFrame();
 
 
 
